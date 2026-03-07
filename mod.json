@@ -10,7 +10,12 @@
 	"name": "iCryzstal Challenge Mod",
 	"version": "v1.0.0",
 	"developer": "reels",
-	"description": "",
+	"description": "Who even is \"iCryzstal\" anyways??",
+	"tags": ["joke", "online"],
+	"issues": {
+		"info": "Github Issues",
+		"url": "https://github.com/dom3/icryzstal/issues"
+	},
 	"dependencies": {
 		"geode.node-ids": ">=v1.20.0"
 	},

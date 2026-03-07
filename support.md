@@ -1,1 +1,3 @@
-Edit this file to change your mod's support info, or delete it if you don't need it.
+dominic.ak on Discord please
+Or just github issues
+But not by email cuz I dont be checking all at 🫩
