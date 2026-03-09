@@ -45,6 +45,7 @@ class $modify(MyLevelInfoLayer, LevelInfoLayer) {
 
     bool init(GJGameLevel* level, bool challenge) {
         if (!LevelInfoLayer::init(level, challenge)) return false;
+        m_fields->is = false;
         
         if (level->m_levelID != 33759558) return true;
         m_fields->is = true;
@@ -70,6 +71,8 @@ class $modify(MyLevelInfoLayer, LevelInfoLayer) {
 
     void updateLabelValues() {
         LevelInfoLayer::updateLabelValues();
+
+        if (!m_fields->is) return;
 
         auto normalModeLabel = static_cast<CCLabelBMFont*>(this->getChildByID("normal-mode-label"));
         auto completions = Mod::get()->getSavedValue<uint64_t>("completions");

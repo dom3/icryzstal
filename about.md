@@ -12,3 +12,4 @@ What's the niche-est level you know? For me, it's the iCryzstal Challenge. I mea
 # Credits
 [ArcticWoof](https://github.com/DumbCaveSpider) / Rated Layouts Mod  
 [npesta](https://www.youtube.com/@npesta)
+[GD Colon Icon Kit](https://gdbrowser.com/iconkit/)
